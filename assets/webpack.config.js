@@ -6,7 +6,7 @@ module.exports = {
   devtool: 'source-map',
   entry: ['bootstrap-loader', './static/js/app.js'],
   output: {
-    path: "/Users/hafiz/_phoenix/exstagram/priv/static/",
+    path: __dirname.substr(0, __dirname.lastIndexOf("/")) + "/priv/static/",
     filename: "js/app.js"
   },
   plugins: [
