@@ -1,6 +1,6 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import CommentApp from "../apps/comment/app"
+import CommentApp from "../views/comment/app"
 
 export default Controllers["page"] = class Page {
 
