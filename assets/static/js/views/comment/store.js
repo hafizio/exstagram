@@ -1,13 +1,8 @@
-import { createStore, compose } from 'redux'
+import { createStore } from 'redux'
 import reducer from './reducer'
 import comments from './data/comments'
 
 const defaultState = { comments }
-
-const enhancers = compose(
-  window.devToolsExtension ? window.devToolsExtension() : f => f
-)
-
-const store = createStore(reducer, defaultState, enhancers)
+const store = createStore(reducer, defaultState)
 
 export default store

@@ -5,7 +5,12 @@ export default class Comments extends React.Component {
 
   renderComment(comment, i) {
     return (
-      <Comment comment={comment} key={i} />
+      <Comment
+        key={i}
+        index={i}
+        comment={comment}
+        removeComment={this.props.removeComment}
+      />
     )
   }
 

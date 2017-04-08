@@ -4,7 +4,7 @@ export default class CommentForm extends React.Component {
 
   _onSubmit(e) {
     e.preventDefault()
-    this.props.addComment(this.refs.author.value, this.refs.comment.value)
+    this.props.addComment(this.refs.user.value, this.refs.text.value)
     this.refs.commentForm.reset()
   }
 
@@ -12,10 +12,10 @@ export default class CommentForm extends React.Component {
     return (
       <form onSubmit={::this._onSubmit} ref="commentForm" className="comment-form">
         <div className="form-group">
-          <input className="form-control" type="text" ref="author" placeholder="author"/>
+          <input className="form-control" type="text" ref="user" placeholder="Author"/>
         </div>
         <div className="form-group">
-          <textarea className="form-control" type="text" ref="comment" placeholder="comment"/>
+          <textarea className="form-control" type="text" ref="text" placeholder="Comment"/>
         </div>
         <button type="submit" className="btn btn-primary">Submit</button>
       </form>

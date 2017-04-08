@@ -7,8 +7,8 @@ export default class Main extends React.Component {
   render() {
     return (
       <div>
-        <Comments comments={this.props.comments} />
-        <CommentForm />
+        <Comments comments={this.props.comments} removeComment={this.props.removeComment} />
+        <CommentForm addComment={this.props.addComment}/>
       </div>
     )
   }
