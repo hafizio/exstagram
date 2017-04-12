@@ -35,10 +35,13 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :exstagram, Exstagram.Repo,
   adapter: Ecto.Adapters.Postgres,
+  database: "exstagram_dev",
+  # NANOBOX DB
   username: System.get_env("DATA_DB_USER"),
   password: System.get_env("DATA_DB_PASS"),
   hostname: System.get_env("DATA_DB_HOST"),
-  database: "exstagram_dev",
+  #
+  # REGULAR DEV DB
   # username: "postgres",
   # password: "postgres",
   # hostname: "localhost",
