@@ -1,2 +1,0 @@
-application-server: mix phx.server
-perfomance-monitor: cd bin/erlangpl -n testnode@127.0.0.1

@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h1>Exstagram</h1>
+    </div>
+  </div>
+</div>
+
+<section class="reactive-component">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div id="comment-app">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

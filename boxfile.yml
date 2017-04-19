@@ -5,7 +5,6 @@ run.config:
   # we need nodejs in development
   # ensure inotify exists for hot-code reloading
   dev_packages:
-    - git
     - nodejs
     - inotify-tools
 

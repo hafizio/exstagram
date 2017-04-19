@@ -37,7 +37,7 @@ defmodule Exstagram.Mixfile do
       {:postgrex, ">= 0.0.0"},
       {:phoenix_html, "~> 2.6"},
       {:phoenix_live_reload, "~> 1.0", only: :dev},
-      {:phoenix_slime, git: "https://github.com/slime-lang/phoenix_slime.git"},
+      # {:phoenix_slime, "~> 0.8.0"},
       {:gettext, "~> 0.11"},
       {:cowboy, "~> 1.0"}
     ]
