@@ -1,0 +1,11 @@
+{
+  "name": "exstagram",
+  "version": "0.0.1",
+  "repository": "https://github.com/hafizio/exstagram.git",
+  "author": "Hafiz Khairudin <haffuza@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "server": "nanobox run mix phx.server",
+    "prod": "cd ./assets && yarn install && webpack -p"
+  }
+}

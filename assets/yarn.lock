@@ -945,9 +945,9 @@ boom@2.x.x:
   dependencies:
     hoek "2.x.x"
 
-bootstrap-loader@^2.0.0-beta.22:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/bootstrap-loader/-/bootstrap-loader-2.0.0.tgz#abccc0e57834c96520e04f971c9dcc483f508937"
+bootstrap-loader@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/bootstrap-loader/-/bootstrap-loader-2.1.0.tgz#6e4596eeb890edcfd86e4f40ae4e3b95e5cee27a"
   dependencies:
     chalk "^1.1.3"
     escape-regexp "0.0.1"
@@ -2610,9 +2610,9 @@ node-pre-gyp@^0.6.29:
     tar "^2.2.1"
     tar-pack "^3.4.0"
 
-node-sass@^4.5.0:
-  version "4.5.2"
-  resolved "https://registry.yarnpkg.com/node-sass/-/node-sass-4.5.2.tgz#4012fa2bd129b1d6365117e88d9da0500d99da64"
+node-sass@^4.5.3:
+  version "4.5.3"
+  resolved "https://registry.yarnpkg.com/node-sass/-/node-sass-4.5.3.tgz#d09c9d1179641239d1b97ffc6231fdcec53e1568"
   dependencies:
     async-foreach "^0.1.3"
     chalk "^1.1.1"

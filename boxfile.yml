@@ -22,8 +22,7 @@ run.config:
 deploy.config:
   # generate the static assets digest
   extra_steps:
-    # - cd ./asssets && yarn install
-    # - ./assets/node_modules/webpack/bin/webpack.js -p
+    - yarn prod
     - mix phx.digest
 
   # just before the new process comes online,
