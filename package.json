@@ -6,6 +6,6 @@
   "license": "MIT",
   "scripts": {
     "server": "nanobox run mix phx.server",
-    "prod": "cd ./assets && yarn install && webpack -p"
+    "prod": "cd ./assets && yarn install && ./node_modules/webpack/bin/webpack.js -p"
   }
 }
